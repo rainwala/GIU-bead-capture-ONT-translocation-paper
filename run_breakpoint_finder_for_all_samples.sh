@@ -1,0 +1,37 @@
+#!/bin/bash
+echo "S20"
+python3 ~/SHARED/SCRIPTS/GIU-translocations/make_breakpoint_read_and_genomic_fusion_region_files.py S20_ ~/SHARED/ANALYSIS/2020/09/Nonacus_Sample3_MC20_Inv16/final/Nonacus_Sample3_MC20_Inv16.sam ~/SHARED/ANALYSIS/2020/09/Nonacus_Sample3_MC20_Inv16/final/all_pass.fq ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL_paper/Nonacus_probe_coverage_regions.bed -brt 5 -mmd 20 -pmt 8 -smt 0.02 -mft 0.1 -mro 200
+echo "S23"
+python3 ~/SHARED/SCRIPTS/GIU-translocations/make_breakpoint_read_and_genomic_fusion_region_files.py S23_ ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL-0023_Only_8ng/final/Nonacus_MLL-0023_Only_8ng.sam ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL-0023_Only_8ng/final/all_pass.fq ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL_paper/Nonacus_probe_coverage_regions.bed -brt 5 -mmd 20 -pmt 8 -smt 0.02 -mft 0.1 -mro 200
+echo "S44"
+python3 ~/SHARED/SCRIPTS/GIU-translocations/make_breakpoint_read_and_genomic_fusion_region_files.py S44_ ~/SHARED/ANALYSIS/2020/09/Nonacus_Sample2_MC44_821_8ng/final/Nonacus_Sample2_MC44_821_8ng.sam ~/SHARED/ANALYSIS/2020/09/Nonacus_Sample2_MC44_821_8ng/final/all_pass.fq ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL_paper/Nonacus_probe_coverage_regions.bed -brt 5 -mmd 20 -pmt 8 -smt 0.02 -mft 0.1 -mro 200
+echo "S92"
+python3 ~/SHARED/SCRIPTS/GIU-translocations/make_breakpoint_read_and_genomic_fusion_region_files.py S92_ ~/SHARED/ANALYSIS/2020/09/Nonacus_92_MLL_7ng/final/Nonacus_92_MLL_7ng.sam ~/SHARED/ANALYSIS/2020/09/Nonacus_92_MLL_7ng/final/all_pass.fq ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL_paper/Nonacus_probe_coverage_regions.bed -brt 5 -mmd 20 -pmt 8 -smt 0.02 -mft 0.1 -mro 200
+echo "S130"
+python3 ~/SHARED/SCRIPTS/GIU-translocations/make_breakpoint_read_and_genomic_fusion_region_files.py S130_ ~/SHARED/ANALYSIS/2020/08/Nonacus_MLL_130_CangenDNA_5ng/final/Nonacus_MLL_130_CangenDNA_5ng_final.sam ~/SHARED/ANALYSIS/2020/08/Nonacus_MLL_130_CangenDNA_5ng/final/all_pass.fq ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL_paper/Nonacus_probe_coverage_regions.bed -brt 5 -mmd 20 -pmt 8 -smt 0.02 -mft 0.1 -mro 200
+echo "S170"
+python3 ~/SHARED/SCRIPTS/GIU-translocations/make_breakpoint_read_and_genomic_fusion_region_files.py S170_ ~/SHARED/ANALYSIS/2020/08/Nonacus_MLL_170_CangenDNA_9ng/final/Nonacus_MLL_170_CangenDNA_9ng_final.sam ~/SHARED/ANALYSIS/2020/08/Nonacus_MLL_170_CangenDNA_9ng/final/all_pass.fq ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL_paper/Nonacus_probe_coverage_regions.bed -brt 5 -mmd 20 -pmt 8 -smt 0.02 -mft 0.1 -mro 200
+echo "S173"
+python3 ~/SHARED/SCRIPTS/GIU-translocations/make_breakpoint_read_and_genomic_fusion_region_files.py S173_ ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL_173_7ng/final/Nonacus_MLL_173_7ng.sam ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL_173_7ng/final/all_pass.fq ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL_paper/Nonacus_probe_coverage_regions.bed -brt 5 -mmd 20 -pmt 8 -smt 0.02 -mft 0.1 -mro 200
+echo "S226"
+python3 ~/SHARED/SCRIPTS/GIU-translocations/make_breakpoint_read_and_genomic_fusion_region_files.py S226_ ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL-0226_Only_7_5ng/final/Nonacus_MLL-0226_Only_7_5ng_final.sam ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL-0226_Only_7_5ng/final/all_pass.fq ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL_paper/Nonacus_probe_coverage_regions.bed -brt 3 -mmd 20 -pmt 8 -smt 0.02 -mft 0.1 -mro 200
+echo "S2662"
+python3 ~/SHARED/SCRIPTS/GIU-translocations/make_breakpoint_read_and_genomic_fusion_region_files.py S2662_ ~/SHARED/ANALYSIS/2021/06/Nonacus_2662_PML-RARA_1-9ng/final/Nonacus_2662_PML-RARA_1-9ng_against_hg38.sam ~/SHARED/ANALYSIS/2021/06/Nonacus_2662_PML-RARA_1-9ng/final/all_pass.fq ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL_paper/Nonacus_probe_coverage_regions.bed -brt 5 -mmd 20 -pmt 8 -smt 0.02 -mft 0.1 -mro 200
+echo "S2463"
+python3 ~/SHARED/SCRIPTS/GIU-translocations/make_breakpoint_read_and_genomic_fusion_region_files.py S2463_ ~/SHARED/ANALYSIS/2021/06/Nonacus_2463_PML-RARA_1-3ng/final/Nonacus_2463_PML-RARA_1-3ng_final_against_hg38.sam ~/SHARED/ANALYSIS/2021/06/Nonacus_2463_PML-RARA_1-3ng/final/all_pass.fq ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL_paper/Nonacus_probe_coverage_regions.bed -brt 5 -mmd 20 -pmt 8 -smt 0.02 -mft 0.1 -mro 200
+echo "S74"
+python3 ~/SHARED/SCRIPTS/GIU-translocations/make_breakpoint_read_and_genomic_fusion_region_files.py S74_ ~/SHARED/ANALYSIS/2022/05/Nonacus_S74_22-5ng/final/Nonacus_S74_22-5ng_against_hg38.sam ~/SHARED/ANALYSIS/2022/05/Nonacus_S74_22-5ng/final/all_pass.fq ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL_paper/Nonacus_probe_coverage_regions.bed -brt 5 -mmd 20 -pmt 8 -smt 0.02 -mft 0.1 -mro 200
+echo "S121"
+python3 ~/SHARED/SCRIPTS/GIU-translocations/make_breakpoint_read_and_genomic_fusion_region_files.py S121_ ~/SHARED/ANALYSIS/2022/05/Nonacus_S121_2-76ng/final/Nonacus_S121_2-76ng_against_hg38.sam ~/SHARED/ANALYSIS/2022/05/Nonacus_S121_2-76ng/final/all_pass.fq ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL_paper/Nonacus_probe_coverage_regions.bed -brt 5 -mmd 20 -pmt 8 -smt 0.02 -mft 0.1 -mro 200
+echo "S3-19300"
+python3 ~/SHARED/SCRIPTS/GIU-translocations/make_breakpoint_read_and_genomic_fusion_region_files.py S3-19300_ ~/SHARED/ANALYSIS/2022/07/Nonacus_3-19300Synlab_1-96ng/final/Nonacus_3-19300Synlab_1-96ng_against_hg38.sam ~/SHARED/ANALYSIS/2022/07/Nonacus_3-19300Synlab_1-96ng/final/all_pass.fq ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL_paper/Nonacus_probe_coverage_regions.bed -brt 5 -mmd 20 -pmt 8 -smt 0.02 -mft 0.1 -mro 200
+echo "S4-19102"
+python3 ~/SHARED/SCRIPTS/GIU-translocations/make_breakpoint_read_and_genomic_fusion_region_files.py S4-19102_ ~/SHARED/ANALYSIS/2022/07/Nonacus_4-19102Synlab_2-35ng/final/Nonacus_4-19102Synlab_2-35ng_against_hg38.sam ~/SHARED/ANALYSIS/2022/07/Nonacus_4-19102Synlab_2-35ng/final/all_pass.fq ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL_paper/Nonacus_probe_coverage_regions.bed -brt 5 -mmd 20 -pmt 8 -smt 0.02 -mft 0.1 -mro 200
+echo "S5-20173"
+python3 ~/SHARED/SCRIPTS/GIU-translocations/make_breakpoint_read_and_genomic_fusion_region_files.py S5-20173_ ~/SHARED/ANALYSIS/2022/07/Nonacus_5-20173synlab_10-7ng/final/Nonacus_5-20173synlab_10-7ng_against_hg38.sam ~/SHARED/ANALYSIS/2022/07/Nonacus_5-20173synlab_10-7ng/final/all_pass.fq ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL_paper/Nonacus_probe_coverage_regions.bed -brt 5 -mmd 20 -pmt 8 -smt 0.02 -mft 0.1 -mro 200
+echo "S6-14143"
+python3 ~/SHARED/SCRIPTS/GIU-translocations/make_breakpoint_read_and_genomic_fusion_region_files.py S6-14143_ ~/SHARED/ANALYSIS/2022/07/Nonacus_6-14143Synlab_3-88ng/final/Nonacus_6-14143Synlab_3-88ng_against_hg38.sam ~/SHARED/ANALYSIS/2022/07/Nonacus_6-14143Synlab_3-88ng/final/all_pass.fq ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL_paper/Nonacus_probe_coverage_regions.bed -brt 5 -mmd 20 -pmt 8 -smt 0.02 -mft 0.1 -mro 200
+echo "S7-17058"
+python3 ~/SHARED/SCRIPTS/GIU-translocations/make_breakpoint_read_and_genomic_fusion_region_files.py S7-17058_ ~/SHARED/ANALYSIS/2022/07/Nonacus_7-17058Synlab_3-21ng/final/Nonacus_7-17058Synlab_3-21ng_against_hg38.sam ~/SHARED/ANALYSIS/2022/07/Nonacus_7-17058Synlab_3-21ng/final/all_pass.fq ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL_paper/Nonacus_probe_coverage_regions.bed -brt 5 -mmd 20 -pmt 8 -smt 0.02 -mft 0.1 -mro 200
+echo "S8-21096"
+python3 ~/SHARED/SCRIPTS/GIU-translocations/make_breakpoint_read_and_genomic_fusion_region_files.py S8-21096_ ~/SHARED/ANALYSIS/2022/07/Nonacus_8-21096synlab_5-75ng/final/Nonacus_8-21096synlab_5-75ng_against_hg38.sam ~/SHARED/ANALYSIS/2022/07/Nonacus_8-21096synlab_5-75ng/final/all_pass.fq ~/SHARED/ANALYSIS/2020/09/Nonacus_MLL_paper/Nonacus_probe_coverage_regions.bed -brt 5 -mmd 20 -pmt 8 -smt 0.02 -mft 0.1 -mro 200
